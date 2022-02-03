@@ -18,15 +18,13 @@ Print the two results (Eigen values and Eigen vectors).
 End of the program. 
 
 ## Program:
-~~~
 import numpy as np
-A=np.array([[1,2,3],[3,6,9]])
+A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
 rank=np.linalg.matrix_rank(A)
 print(rank)
-~~~
 
 ## Output:
-![GitHub Logo](rank.png)
+![GitHub Logo](matrix.jpg)
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
